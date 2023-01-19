@@ -1,0 +1,9 @@
+Short Form DID: 
+    did:ion:EiCCB2zkEq9GKhRMkT5KvzGV9lhNONat973d8p1NgYKD0A
+  Private JWK:
+    {"kid":"auth-keys","crv":"Ed25519","d":"Nq59Ab7PNnqY9cOSLco6BJvaxyUKoTOLSJxw0ANiEdQ","x":"Z8yjgkqVG9Tfk5qe_fis94xEMpD4eIsJxcL1SDaZ2UI","kty":"OKP"}
+  Public JWK:
+    {"crv":"Ed25519","x":"Z8yjgkqVG9Tfk5qe_fis94xEMpD4eIsJxcL1SDaZ2UI","kty":"OKP"}
+
+  Resolver:
+    https://beta.discover.did.microsoft.com/
