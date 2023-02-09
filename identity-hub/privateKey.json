@@ -1,1 +1,1 @@
-{"crv":"Ed25519","d":"lgve3iH_nGSgvkLkiyiS0tJoxnpjZHr1FLlDX5X-xs8","x":"kRuBzEVQKcOvnM4Ax6eZqMH_dDjcPnpwL2FQPIAEMAw","kty":"OKP","kid":"auth-keys"}
+{"crv":"Ed25519","d":"lgve3iH_nGSgvkLkiyiS0tJoxnpjZHr1FLlDX5X-xs8","x":"kRuBzEVQKcOvnM4Ax6eZqMH_dDjcPnpwL2FQPIAEMAw","kty":"OKP","kid":"did:ion:EiCA_KXdKkqAvzvySX5GCHbWx5jq2gmtyAUN3d6WwlGt3Q#auth-keys"}

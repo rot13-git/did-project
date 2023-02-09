@@ -1,5 +1,5 @@
 import { h, Component } from 'preact';
-import linkState from 'linkstate';
+const linkState: any = require('linkstate');
 
 interface IAddItemBarProps {
 
@@ -43,7 +43,7 @@ export default class AddItemBar extends Component<IAddItemBarProps, IAddItemBarS
     return (
       <form class='form-inline form-add-item' onSubmit={ this.onFormSubmit }>
         <label class='sr-only' for='addItemInput'>Name</label>
-        <input type='text' value={ this.state.itemText } onKeyUp={ linkState(this, 'itemText') }
+        <input type='text' value={ this.state.itemText } onKeyUp={ linkState.linkState(this, 'itemText') }
           class='form-control' id='addItemInput' placeholder='Add a to-do item...' />
         <button class='btn btn-primary' type='submit'>Add</button>
       </form>
